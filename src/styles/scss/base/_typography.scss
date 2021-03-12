@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Ondo-Bold";
+    src: url("../../assets/fonts/Ondo-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Ondo-Medium";
+    src: url("../../assets/fonts/Ondo-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Ondo-Regular";
+    src: url("../../assets/fonts/Ondo-Regular.ttf");
+}
+
+.heading-primary {
+    font-family: 'Ondo-Medium';
+    font-size: 7rem;
+    line-height: 10rem;
+    color: $primary-color;
+}
+
+.heading-secondary {
+    font-family: 'Ondo-Medium';
+    font-size: 3.2rem;
+    line-height: 6.4rem;
+    color: $primary-color;
+}
+
+.heading-tertiary {
+    font-family: 'Ondo-Medium';
+    color: $primary-color;
+    font-size: 2.4rem;
+}
+
+.paragraph {
+    font-weight: 400;
+    line-height: 3rem;
+}
